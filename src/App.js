@@ -1,17 +1,10 @@
 import React from "react";
 import "./App.css";
-import StatelessComponent from "./Components/StatelessComponent";
-import StatefullComponent from "./Components/StatefullComponent";
+import Home from "./Components/Home";
 
 function App() {
   return (
-    <div>
-      My App
-      <hr/>
-      <StatelessComponent />
-      <hr/>
-      <StatefullComponent/>
-    </div>
+    <Home/>
   );
 }
 
